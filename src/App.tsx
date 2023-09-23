@@ -42,10 +42,10 @@ const App = () => {
       </p>
       <h3>Start coding</h3>
       <p>
-        All your setup is done. Start writing code inside the <code>src</code>{" "}
-        folder.
+        All your setup is done. Run <code>npm run dev</code> and start writing
+        code inside the <code>src</code> folder.
       </p>
-      <h2>Configure for GitHub</h2>
+      <h2>Configure in GitHub</h2>
       <ol>
         <li>Create a new repo in GH and change the origin</li>
         <li>
@@ -53,20 +53,32 @@ const App = () => {
           out of the box
         </li>
         <li>
+          Goto <code>Settings/Actions/General</code> and activate{" "}
+          <code>Read and write permission</code> otherwise some of the jobs of
+          the ci wouldn&#39;t work{" "}
+          <img src="public/write-permissions.png" alt="Write-permissions" />
+        </li>
+        <li>
           Push an <code>Initial commit</code> to your repo and the pipeline
           should trigger the GitHug Pages publish
         </li>
       </ol>
       <h3>Recommendations</h3>
-      <ol>
-        <li>
-          Enable <code>Allow auto-merge</code> and{" "}
-          <code>Automatically delete head branches</code> inside{" "}
-          <code>Settings/General</code>
-        </li>
-      </ol>
+      <p>
+        Enable <code>Allow auto-merge</code> and{" "}
+        <code>Automatically delete head branches</code> inside{" "}
+        <code>Settings/General</code>
+      </p>
       <p>
         <img src="public/auto-merge.png" alt="Auto-merge" />
+      </p>
+      <p>
+        Enable branch protection for <code>main</code> under{" "}
+        <code>Settings/Branches</code>. These settings are only available after
+        pushing at least 1 commit to the repo
+      </p>
+      <p>
+        <img src="public/branch-protection.png" alt="branch-protection" />
       </p>
     </div>
   );
