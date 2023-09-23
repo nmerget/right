@@ -3,6 +3,10 @@ name: Playwright E2E
 on:
   workflow_call:
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
   playwright:
     name: Playwright E2E
