@@ -3,16 +3,12 @@ name: Playwright E2E
 on:
   workflow_call:
 
-permissions:
-  actions: write
-  contents: write
-
 jobs:
   playwright:
     name: Playwright E2E
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.34.1-focal
+      image: mcr.microsoft.com/playwright:v1.38.1-focal
     steps:
       - name: ⏬ Checkout repo
         uses: actions/checkout@v4
