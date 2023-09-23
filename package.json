@@ -1,0 +1,44 @@
+{
+  "name": "right",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --open",
+    "generate:readme": "npx marked -o readme.html -i README.md",
+    "generate:manifest-icons": "pwa-asset-generator public/app-icon.png public/icons --favicon -i ./index.html",
+    "lint": "eslint src --ext ts,tsx",
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {}\"",
+    "start": "vite",
+    "preview": "vite preview",
+    "test": "playwright test -c playwright.config.ts",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.34.3",
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "commander": "^11.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "8.0.3",
+    "prettier": "^3.0.3",
+    "prettier-plugin-pkg": "0.18.0",
+    "prettier-plugin-sh": "^0.13.1",
+    "pwa-asset-generator": "^6.3.1",
+    "replace-in-file": "^7.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-pwa": "^0.16.5"
+  }
+}
