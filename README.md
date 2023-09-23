@@ -35,14 +35,19 @@ Goto `manifest.ts` and change the config by your preferences. For more informati
 
 All your setup is done. Run `npm run dev` and start writing code inside the `src` folder.
 
-## Configure for GitHub
+## Configure in GitHub
 
 1. Create a new repo in GH and change the origin
 2. Your default branch should be `main` so the pipeline works out of the box
-3. Push an `Initial commit` to your repo and the pipeline should trigger the GitHug Pages publish
+3. Goto `Settings/Actions/General` and activate `Read and write permission` otherwise some of the jobs of the ci wouldn't work ![Write-permissions](public/write-permissions.png)
+4. Push an `Initial commit` to your repo and the pipeline should trigger the GitHug Pages publish
 
 ### Recommendations
 
-1. Enable `Allow auto-merge` and `Automatically delete head branches` inside `Settings/General`
+Enable `Allow auto-merge` and `Automatically delete head branches` inside `Settings/General`
 
 ![Auto-merge](public/auto-merge.png)
+
+Enable branch protection for `main` under `Settings/Branches`. These settings are only available after pushing at least 1 commit to the repo
+
+![branch-protection](public/branch-protection.png)
