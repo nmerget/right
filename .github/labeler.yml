@@ -1,5 +1,0 @@
----
-# Add 'cicd' label to any file changes inside .github dir
-🚢📀cicd:
-  - changed-files:
-      - any-glob-to-any-file: [".github/*", ".github/**/*"]
