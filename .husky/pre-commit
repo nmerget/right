@@ -3,5 +3,5 @@
 # shellcheck source=./_/husky.sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint
-npm run tsc
+pnpm run lint
+pnpm run build

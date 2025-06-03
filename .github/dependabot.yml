@@ -7,12 +7,23 @@ updates:
       interval: 'daily'
     pull-request-branch-name:
       separator: '-'
+
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
     pull-request-branch-name:
-      separator: '-'
-    ignore:
-      # disable playwright auto update for now, because we need to update them manually anyway for github action
-      - dependency-name: "@playwright/test"
+      separator: "-"
+    # https://github.com/dependabot/dependabot-core/issues/5226#issuecomment-1179434437
+    versioning-strategy: increase
+    groups:
+      patch-dependencies:
+        update-types:
+          - "patch"
+      playwright:
+        patterns:
+          - "@playwright*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
