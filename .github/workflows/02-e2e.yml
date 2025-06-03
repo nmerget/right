@@ -37,7 +37,7 @@ jobs:
         uses: ./.github/actions/pnpm
 
       - name: 👩‍🔬 Test with Playwright 🎭
-        run: npx playwright test
+        run: pnpm run test
 
       - name: 🆙 Upload playwright-report
         if: always()
