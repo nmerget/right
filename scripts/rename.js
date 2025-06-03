@@ -5,8 +5,8 @@ const program = new Command();
 program.name("rename").description("CLI to rename default project name");
 
 program
-  .option("-n, --name <name>", "New custom full name")
-  .option("-sn, --short-name <shortName>", "New custom short name")
+  .option("--name <name>", "New custom full name")
+  .option("--short-name <shortName>", "New custom short name")
   .action(({ name, shortName }) => {
     const shortNameLowercase = shortName.toLowerCase();
     replaceInFileSync({

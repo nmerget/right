@@ -56,7 +56,7 @@ const App = () => {
           Goto <code>Settings/Actions/General</code> and activate{" "}
           <code>Read and write permission</code> otherwise some of the jobs of
           the ci wouldn&#39;t work{" "}
-          <img src="write-permissions.png" alt="Write-permissions" />
+          <img src="/right/write-permissions.png" alt="Write-permissions" />
         </li>
         <li>
           Push an <code>Initial commit</code> to your repo and the pipeline
@@ -70,7 +70,7 @@ const App = () => {
         <code>Settings/General</code>
       </p>
       <p>
-        <img src="auto-merge.png" alt="Auto-merge" />
+        <img src="/right/auto-merge.png" alt="Auto-merge" />
       </p>
       <p>
         Enable branch protection for <code>main</code> under{" "}
@@ -78,7 +78,7 @@ const App = () => {
         pushing at least 1 commit to the repo
       </p>
       <p>
-        <img src="branch-protection.png" alt="branch-protection" />
+        <img src="/right/branch-protection.png" alt="branch-protection" />
       </p>
     </div>
   );

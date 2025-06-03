@@ -12,14 +12,14 @@ jobs:
       - name: ⏬ Checkout repo
         uses: actions/checkout@v4
 
-      - name: 🔄 Init Cache
-        uses: nmerget/npm-cache-action@main
+      - name: 🔄 Init PNPM
+        uses: ./.github/actions/pnpm
 
       - name: 🔨 Build
-        run: npm run build
+        run: pnpm run build
 
       - name: ⏫ Upload build
-        uses: nmerget/upload-gzip-artifact@main
+        uses: actions/upload-artifact@v4
         with:
           name: frontend-build
           path: dist

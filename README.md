@@ -17,11 +17,11 @@ git clone git@github.com:nmerget/right.git my-awesome-project
 
 ### Install dependencies
 
-`npm install`
+`pnpm install`
 
 ### Rename the default repo
 
-`node scripts/rename.js -n \"My Awesome Project\" -sn my-awesome-project`
+`node scripts/rename.js --name "My Awesome Project" --short-name my-awesome-project`
 
 ### Add a custom app icon
 
@@ -33,7 +33,7 @@ Goto `manifest.ts` and change the config by your preferences. For more informati
 
 ### Start coding
 
-All your setup is done. Run `npm run dev` and start writing code inside the `src` folder.
+All your setup is done. Run `pnpm run dev` and start writing code inside the `src` folder.
 
 ## Configure in GitHub
 
