@@ -35,6 +35,9 @@ jobs:
       - name: 🔄 Init PNPM
         uses: ./.github/actions/pnpm
 
+      - name: 📲 Install esbuild (binary workaround)
+        run: pnpm i -D esbuild-linux-64
+
       - name: 👩‍🔬 Test with Playwright 🎭
         env:
           HOME: /root
