@@ -37,7 +37,7 @@
     "globals": "^16.2.0",
     "husky": "9.1.7",
     "prettier": "^3.5.3",
-    "prettier-plugin-pkg": "0.20.0",
+    "prettier-plugin-pkg": "0.21.1",
     "prettier-plugin-sh": "^0.17.4",
     "pwa-asset-generator": "^8.0.5",
     "replace-in-file": "^8.3.0",
