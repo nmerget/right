@@ -34,8 +34,8 @@ importers:
         specifier: ^19.1.11
         version: 19.1.11
       '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.7(@types/react@19.1.11)
+        specifier: ^19.1.8
+        version: 19.1.8(@types/react@19.1.11)
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.33.1
         version: 8.41.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(typescript@5.9.2)
@@ -74,7 +74,7 @@ importers:
         version: 0.18.0(prettier@3.6.2)
       pwa-asset-generator:
         specifier: ^8.0.5
-        version: 8.0.5
+        version: 8.1.0
       replace-in-file:
         specifier: ^8.3.0
         version: 8.3.0
@@ -1120,8 +1120,8 @@ packages:
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
-  '@types/react-dom@19.1.7':
-    resolution: {integrity: sha512-i5ZzwYpqjmrKenzkoLM2Ibzt6mAsM7pxB6BCIouEVVmgiqaMj1TjaK7hnA36hbW5aZv20kx7Lw6hWzPWg0Rurw==}
+  '@types/react-dom@19.1.8':
+    resolution: {integrity: sha512-xG7xaBMJCpcK0RpN8jDbAACQo54ycO6h4dSSmgv8+fu6ZIAdANkx/WsawASUjVXYfy+J9AbUpRMNNEsXCDfDBQ==}
     peerDependencies:
       '@types/react': ^19.0.0
 
@@ -2463,8 +2463,8 @@ packages:
     resolution: {integrity: sha512-xX0QJRc8t19iAwRDsAOR38Q/Zx/W6WVzJCEhKCAwp2XMsaWqfNtQ+rBfQW9PlF+Op24d7c8Zlgq9YNmbnA7hdQ==}
     engines: {node: '>=18'}
 
-  pwa-asset-generator@8.0.5:
-    resolution: {integrity: sha512-to2GpqQBC2IYzDHgKvIpa79hn53NumtUCzZdWlx9fLJzJalM7PfCcHR1hus/xJZzbT62h4Eo0diBBzZSpESyjg==}
+  pwa-asset-generator@8.1.0:
+    resolution: {integrity: sha512-1evvkxwy7MptvuEEpEXbtALRqm5lynkbnpSiYJ/Awe/9zuQ+mm1bE9MjI5uA7kCNJ6TOaKGa9IAw1805RcbzPw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4156,7 +4156,7 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
-  '@types/react-dom@19.1.7(@types/react@19.1.11)':
+  '@types/react-dom@19.1.8(@types/react@19.1.11)':
     dependencies:
       '@types/react': 19.1.11
 
@@ -5637,15 +5637,15 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  pwa-asset-generator@8.0.5:
+  pwa-asset-generator@8.1.0:
     dependencies:
-      chalk: 5.4.1
       cheerio: 1.0.0
       chrome-launcher: 1.2.0
       find-process: 1.4.10
       lodash.uniqwith: 4.5.0
       meow: 13.2.0
       mime-types: 3.0.1
+      picocolors: 1.1.1
       pretty: 2.0.0
       puppeteer-core: 24.10.0
       slash: 5.1.0
