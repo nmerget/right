@@ -46,7 +46,7 @@
     "vite": "^7.2.2",
     "vite-plugin-pwa": "^1.0.0",
     "workbox-build": "^7.3.0",
-    "workbox-window": "^7.3.0"
+    "workbox-window": "^7.4.0"
   },
   "packageManager": "pnpm@10.11.0+sha1.4048eeefd564ff1ab248fac3e2854d38245fe2f1"
 }
