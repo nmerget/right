@@ -40,7 +40,7 @@
     "prettier-plugin-pkg": "0.21.2",
     "prettier-plugin-sh": "^0.18.0",
     "pwa-asset-generator": "^8.0.5",
-    "replace-in-file": "^8.3.0",
+    "replace-in-file": "^8.4.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.42.0",
     "vite": "^7.2.6",
