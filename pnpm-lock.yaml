@@ -28,8 +28,8 @@ importers:
         specifier: 1.58.2
         version: 1.58.2
       '@types/node':
-        specifier: ^25.3.0
-        version: 25.3.0
+        specifier: ^25.3.1
+        version: 25.3.1
       '@types/react':
         specifier: ^19.2.10
         version: 19.2.14
@@ -44,7 +44,7 @@ importers:
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
       '@vitejs/plugin-react':
         specifier: ^5.1.3
-        version: 5.1.4(vite@7.3.1(@types/node@25.3.0)(terser@5.40.0))
+        version: 5.1.4(vite@7.3.1(@types/node@25.3.1)(terser@5.40.0))
       commander:
         specifier: ^14.0.0
         version: 14.0.3
@@ -86,10 +86,10 @@ importers:
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@25.3.0)(terser@5.40.0)
+        version: 7.3.1(@types/node@25.3.1)(terser@5.40.0)
       vite-plugin-pwa:
         specifier: ^1.0.0
-        version: 1.2.0(vite@7.3.1(@types/node@25.3.0)(terser@5.40.0))(workbox-build@7.4.0(@types/babel__core@7.20.5))(workbox-window@7.4.0)
+        version: 1.2.0(vite@7.3.1(@types/node@25.3.1)(terser@5.40.0))(workbox-build@7.4.0(@types/babel__core@7.20.5))(workbox-window@7.4.0)
       workbox-build:
         specifier: ^7.3.0
         version: 7.4.0(@types/babel__core@7.20.5)
@@ -1193,8 +1193,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@25.3.0':
-    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
+  '@types/node@25.3.1':
+    resolution: {integrity: sha512-hj9YIJimBCipHVfHKRMnvmHg+wfhKc0o4mTtXh9pKBjC8TLJzz0nzGmLi5UJsYAUgSvXFHgb0V2oY10DUFtImw==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -4393,7 +4393,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@25.3.0':
+  '@types/node@25.3.1':
     dependencies:
       undici-types: 7.18.2
 
@@ -4411,7 +4411,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 25.3.0
+      '@types/node': 25.3.1
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@9.39.3)(typescript@5.9.3))(eslint@9.39.3)(typescript@5.9.3)':
@@ -4505,7 +4505,7 @@ snapshots:
       '@typescript-eslint/types': 8.56.1
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react@5.1.4(vite@7.3.1(@types/node@25.3.0)(terser@5.40.0))':
+  '@vitejs/plugin-react@5.1.4(vite@7.3.1(@types/node@25.3.1)(terser@5.40.0))':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.29.0)
@@ -4513,7 +4513,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-rc.3
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.3.1(@types/node@25.3.0)(terser@5.40.0)
+      vite: 7.3.1(@types/node@25.3.1)(terser@5.40.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4759,7 +4759,7 @@ snapshots:
 
   chrome-launcher@1.2.1:
     dependencies:
-      '@types/node': 25.3.0
+      '@types/node': 25.3.1
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 2.0.2
@@ -6419,18 +6419,18 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-plugin-pwa@1.2.0(vite@7.3.1(@types/node@25.3.0)(terser@5.40.0))(workbox-build@7.4.0(@types/babel__core@7.20.5))(workbox-window@7.4.0):
+  vite-plugin-pwa@1.2.0(vite@7.3.1(@types/node@25.3.1)(terser@5.40.0))(workbox-build@7.4.0(@types/babel__core@7.20.5))(workbox-window@7.4.0):
     dependencies:
       debug: 4.4.1
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.14
-      vite: 7.3.1(@types/node@25.3.0)(terser@5.40.0)
+      vite: 7.3.1(@types/node@25.3.1)(terser@5.40.0)
       workbox-build: 7.4.0(@types/babel__core@7.20.5)
       workbox-window: 7.4.0
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.3.1(@types/node@25.3.0)(terser@5.40.0):
+  vite@7.3.1(@types/node@25.3.1)(terser@5.40.0):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6439,7 +6439,7 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.3.0
+      '@types/node': 25.3.1
       fsevents: 2.3.3
       terser: 5.40.0
 
