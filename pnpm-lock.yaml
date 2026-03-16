@@ -73,8 +73,8 @@ importers:
         specifier: ^0.18.0
         version: 0.18.0(prettier@3.8.1)
       pwa-asset-generator:
-        specifier: ^8.1.3
-        version: 8.1.3
+        specifier: ^8.1.4
+        version: 8.1.4
       replace-in-file:
         specifier: ^8.4.0
         version: 8.4.0
@@ -1395,8 +1395,8 @@ packages:
       bare-buffer:
         optional: true
 
-  bare-os@3.7.1:
-    resolution: {integrity: sha512-ebvMaS5BgZKmJlvuWh14dg9rbUI84QeV3WlWn6Ph6lFI8jJoh7ADtVTyD2c93euwbe+zgi0DVrl4YmqXeM9aIA==}
+  bare-os@3.8.0:
+    resolution: {integrity: sha512-Dc9/SlwfxkXIGYhvMQNUtKaXCaGkZYGcd1vuNUUADVqzu4/vQfvnMkYYOUnt2VwQ2AqKr/8qAVFRtwETljgeFg==}
     engines: {bare: '>=1.14.0'}
 
   bare-path@3.0.0:
@@ -2560,12 +2560,12 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.39.0:
-    resolution: {integrity: sha512-SzIxz76Kgu17HUIi57HOejPiN0JKa9VCd2GcPY1sAh6RA4BzGZarFQdOYIYrBdUVbtyH7CrDb9uhGEwVXK/YNA==}
+  puppeteer-core@24.39.1:
+    resolution: {integrity: sha512-AMqQIKoEhPS6CilDzw0Gd1brLri3emkC+1N2J6ZCCuY1Cglo56M63S0jOeBZDQlemOiRd686MYVMl9ELJBzN3A==}
     engines: {node: '>=18'}
 
-  pwa-asset-generator@8.1.3:
-    resolution: {integrity: sha512-DuAL+tpGkqATRLrZfRZWYYfia7zCPJZNJGyf98FCh08xuzTUjuQHsIaFfQlI2ss6x3Vf8AP+jgdjaTUi+MumJg==}
+  pwa-asset-generator@8.1.4:
+    resolution: {integrity: sha512-+Inf9aSVuH7MErgkCSZ1xwBdmK1p9Qhhvqt9JVv7MbaF2C7FfYDN+2dzNa4CNGGVNcf9UJP8MWAxHUEJBRF6yQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2913,8 +2913,8 @@ packages:
   undici-types@7.18.2:
     resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
-  undici@7.24.0:
-    resolution: {integrity: sha512-jxytwMHhsbdpBXxLAcuu0fzlQeXCNnWdDyRHpvWsUl8vd98UwYdl9YTyn8/HcpcJPC3pwUveefsa3zTxyD/ERg==}
+  undici@7.24.3:
+    resolution: {integrity: sha512-eJdUmK/Wrx2d+mnWWmwwLRyA7OQCkLap60sk3dOK4ViZR7DKwwptwuIvFBg2HaiP9ESaEdhtpSymQPvytpmkCA==}
     engines: {node: '>=20.18.1'}
 
   unicode-canonical-property-names-ecmascript@2.0.1:
@@ -4632,11 +4632,11 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  bare-os@3.7.1: {}
+  bare-os@3.8.0: {}
 
   bare-path@3.0.0:
     dependencies:
-      bare-os: 3.7.1
+      bare-os: 3.8.0
 
   bare-stream@2.8.1(bare-events@2.8.2):
     dependencies:
@@ -4752,7 +4752,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.24.0
+      undici: 7.24.3
       whatwg-mimetype: 4.0.0
 
   chrome-launcher@1.2.1:
@@ -5884,7 +5884,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.39.0:
+  puppeteer-core@24.39.1:
     dependencies:
       '@puppeteer/browsers': 2.13.0
       chromium-bidi: 14.0.0(devtools-protocol@0.0.1581282)
@@ -5901,7 +5901,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  pwa-asset-generator@8.1.3:
+  pwa-asset-generator@8.1.4:
     dependencies:
       cheerio: 1.2.0
       chrome-launcher: 1.2.1
@@ -5910,7 +5910,7 @@ snapshots:
       mime-types: 3.0.2
       picocolors: 1.1.1
       pretty: 2.0.0
-      puppeteer-core: 24.39.0
+      puppeteer-core: 24.39.1
       slash: 5.1.0
     transitivePeerDependencies:
       - bare-abort-controller
@@ -6386,7 +6386,7 @@ snapshots:
 
   undici-types@7.18.2: {}
 
-  undici@7.24.0: {}
+  undici@7.24.3: {}
 
   unicode-canonical-property-names-ecmascript@2.0.1: {}
 
