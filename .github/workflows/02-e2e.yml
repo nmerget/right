@@ -11,7 +11,7 @@ jobs:
       version: ${{ steps.version.outputs.version }}
     steps:
       - name: ⏬ Checkout repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: 🔄 Init PNPM
         uses: ./.github/actions/pnpm
@@ -31,7 +31,7 @@ jobs:
       options: --user 1001
     steps:
       - name: ⏬ Checkout repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: 🔄 Init PNPM
         uses: ./.github/actions/pnpm
