@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       react:
-        specifier: ^19.2.7
-        version: 19.2.7
+        specifier: ^19.2.8
+        version: 19.2.8
       react-dom:
         specifier: ^19.1.0
-        version: 19.2.7(react@19.2.7)
+        version: 19.2.8(react@19.2.8)
     devDependencies:
       '@eslint/compat':
         specifier: ^2.0.4
@@ -65,13 +65,13 @@ importers:
         version: 9.1.7
       prettier:
         specifier: ^3.8.4
-        version: 3.9.5
+        version: 3.9.6
       prettier-plugin-pkg:
         specifier: 0.22.1
-        version: 0.22.1(prettier@3.9.5)
+        version: 0.22.1(prettier@3.9.6)
       prettier-plugin-sh:
         specifier: ^0.19.0
-        version: 0.19.0(prettier@3.9.5)
+        version: 0.19.0(prettier@3.9.6)
       pwa-asset-generator:
         specifier: ^8.1.4
         version: 8.1.5
@@ -2703,8 +2703,8 @@ packages:
     peerDependencies:
       prettier: ^3.6.0
 
-  prettier@3.9.5:
-    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2750,13 +2750,13 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  react-dom@19.2.7:
-    resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
+  react-dom@19.2.8:
+    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
     peerDependencies:
-      react: ^19.2.7
+      react: ^19.2.8
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.10:
@@ -6090,17 +6090,17 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-pkg@0.22.1(prettier@3.9.5):
+  prettier-plugin-pkg@0.22.1(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-sh@0.19.0(prettier@3.9.5):
+  prettier-plugin-sh@0.19.0(prettier@3.9.6):
     dependencies:
       '@reteps/dockerfmt': 0.5.4
-      prettier: 3.9.5
+      prettier: 3.9.6
       sh-syntax: 0.6.0
 
-  prettier@3.9.5: {}
+  prettier@3.9.6: {}
 
   pretty-bytes@5.6.0: {}
 
@@ -6174,12 +6174,12 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  react-dom@19.2.7(react@19.2.7):
+  react-dom@19.2.8(react@19.2.8):
     dependencies:
-      react: 19.2.7
+      react: 19.2.8
       scheduler: 0.27.0
 
-  react@19.2.7: {}
+  react@19.2.8: {}
 
   reflect.getprototypeof@1.0.10:
     dependencies:
